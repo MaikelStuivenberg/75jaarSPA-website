@@ -34,7 +34,36 @@
     text-transform: uppercase;
     color: white;
     font-family: "Vina Sans", sans-serif;
-    font-size: 40pt;
+    font-size: 34pt;
     padding-top: 10px;
     text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "montserrat", sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.button a {
+    color: white;
+    background-color: #D50000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    transition: background-color 0.2s ease;
+}
+
+.button a:hover {
+    color: white;
+    background-color: #9B0000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }

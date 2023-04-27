@@ -25,7 +25,11 @@ export class AppComponent implements OnInit, OnDestroy {
     this.bgInterval = setInterval(() => {
       this.currentBackgroundIndex += 1;
       this.currentBackgroundImage = this.images[this.currentBackgroundIndex];
-      if(this.currentBackgroundIndex >= this.images.length - 1) this.currentBackgroundIndex = -1;
+      if (this.currentBackgroundIndex >= this.images.length - 1) this.currentBackgroundIndex = -1;
+
+      // Load next image in background
+      let img = new Image();
+      img.src = this.images[this.currentBackgroundIndex + 1];
     }, 4000);
   }
 

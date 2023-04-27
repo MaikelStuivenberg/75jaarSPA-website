@@ -69,4 +69,9 @@ main {
     top:0;
     left:0;
     z-index: -1;
+    transition: background-image 3000ms;
   }
+
+
+
+  
