@@ -1,5 +1,5 @@
 /** .top_text horizontal center, all caps, white color **/
-.top_text{
+.top_text {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -16,6 +16,7 @@
     padding: 25px;
     bottom: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .join_us {
@@ -34,9 +35,38 @@
     text-transform: uppercase;
     color: white;
     font-family: "Vina Sans", sans-serif;
-    font-size: 34pt;
+    font-size: 40pt;
     padding-top: 10px;
     text-align: center;
+}
+
+.date_small {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .date {
+        font-size: 30pt;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .date {
+        display: none;
+    }
+
+    .date_small {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: white;
+        font-family: "Vina Sans", sans-serif;
+        font-size: 28pt;
+        padding-top: 10px;
+        text-align: center;
+    }
+
 }
 
 .button {
@@ -56,7 +86,7 @@
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    
+
     transition: background-color 0.2s ease;
 }
 

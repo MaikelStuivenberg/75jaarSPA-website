@@ -10,14 +10,16 @@ export class AppComponent implements OnInit, OnDestroy {
 
   bgInterval: any;
   currentBackgroundIndex: number = 0;
-  currentBackgroundImage: string = '../assets/fotos/2012CHOIR.jpeg';
+  currentBackgroundImage: string = '../assets/fotos/2011BRASS.jpeg';
 
   images: string[] = [
+    '../assets/fotos/2011BRASS.jpeg',
     '../assets/fotos/2012CHOIR.jpeg',
+    '../assets/fotos/2012THEATRE.jpeg',
     '../assets/fotos/2012TIMBRALS.jpeg',
     '../assets/fotos/2015SPABAND.jpeg',
     '../assets/fotos/2015ZANG.jpeg',
-    '../assets/fotos/2016MR.jpeg',
+    '../assets/fotos/2018BRASS.jpeg',
   ];
 
 
@@ -30,6 +32,7 @@ export class AppComponent implements OnInit, OnDestroy {
       // Load next image in background
       let img = new Image();
       img.src = this.images[this.currentBackgroundIndex + 1];
+      img.style.display = 'none';
     }, 4000);
   }
 

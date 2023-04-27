@@ -1,0 +1,50 @@
+.top_text {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Vina Sans", sans-serif;
+    font-size: 60pt;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.programma_item {
+    border-radius: 5px;
+    background: linear-gradient(110deg, #135a8996 30%, #57a6db9e 70%);
+    max-width: 600px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+}
+
+.programma_item_inside {
+    border-left: 4px solid #FFFFFF80;
+    padding: 10px;
+}
+
+.programma_item_time {
+    font-family: "Vina Sans", sans-serif;
+    font-size: 14pt;
+    display: inline-block;
+}
+
+.programma_item_location {
+    font-family: "Vina Sans", sans-serif;
+    font-size: 14pt;
+    float: right;
+}
+
+.programma_item_description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10pt;
+    padding-top: 5px;
+}
