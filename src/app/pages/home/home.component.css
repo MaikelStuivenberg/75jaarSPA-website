@@ -1,0 +1,33 @@
+/** .top_text horizontal center, all caps, white color **/
+.top_text{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Vina Sans", sans-serif;
+    font-size: 60pt;
+    padding-top: 20px;
+    padding-bottom: 500px;
+}
+
+
+.join_us {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 16pt;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Vina Sans", sans-serif;
+    font-size: 40pt;
+    padding-top: 10px;
+}

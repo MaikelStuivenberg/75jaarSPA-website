@@ -1,0 +1,53 @@
+header {
+    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+header .menu {
+    text-align: center;
+    width: 100%;
+}
+
+header .menu .menu_item {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .menu .menu_item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+}
+
+header .image_right {
+    float: right;
+}
+
+header .image_right img {
+    margin-top: -90px;
+}
+
+main {
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1600px) {
+    header .image_right img {
+        margin-top: -60px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    header .image_right img {
+        margin-top: -30px;
+        height: 200px;
+    }
+}
