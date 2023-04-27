@@ -18,16 +18,17 @@
 
 .programma_item {
     border-radius: 5px;
-    background: linear-gradient(110deg, #135a8996 30%, #57a6db9e 70%);
+    background: linear-gradient(110deg, #d5000070 30%, #d8252584 70%);
     max-width: 600px;
     padding: 10px;
     color: white;
     font-family: "Roboto", sans-serif;
     margin: 20px;
+    border: 1px solid #16090980;
 }
 
 .programma_item_inside {
-    border-left: 4px solid #FFFFFF80;
+    border-left: 4px solid #d7d7d7fa;
     padding: 10px;
 }
 
