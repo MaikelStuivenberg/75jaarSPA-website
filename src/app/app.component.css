@@ -39,16 +39,21 @@ main {
     margin-top: 64px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
     header .image_right img {
         margin-top: -60px;
         height: 350px;
     }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 900px) {
     header .image_right img {
         margin-top: -30px;
         height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    header .image_right img {
+        display: none;
     }
 }
 

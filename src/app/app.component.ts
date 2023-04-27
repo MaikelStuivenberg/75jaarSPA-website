@@ -7,6 +7,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit, OnDestroy {
   title: string = '75jaarspa';
+
+  bgInterval: any;
   currentBackgroundIndex: number = 0;
   currentBackgroundImage: string = '../assets/fotos/2012CHOIR.jpeg';
 
@@ -18,8 +20,9 @@ export class AppComponent implements OnInit, OnDestroy {
     '../assets/fotos/2016MR.jpeg',
   ];
 
+
   ngOnInit(): void {
-    setInterval(() => {
+    this.bgInterval = setInterval(() => {
       this.currentBackgroundIndex += 1;
       this.currentBackgroundImage = this.images[this.currentBackgroundIndex];
       if(this.currentBackgroundIndex >= this.images.length - 1) this.currentBackgroundIndex = -1;
@@ -27,5 +30,6 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
+    this.bgInterval.clearInterval();
   }
 }

@@ -6,13 +6,19 @@
     color: white;
     font-family: "Vina Sans", sans-serif;
     font-size: 60pt;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 500px;
+    text-align: center;
 }
 
+.bottom {
+    position: fixed;
+    padding: 25px;
+    bottom: 0;
+    width: 100%;
+}
 
 .join_us {
-    display: flex;
     justify-content: center;
     text-transform: uppercase;
     color: white;
@@ -30,4 +36,5 @@
     font-family: "Vina Sans", sans-serif;
     font-size: 40pt;
     padding-top: 10px;
+    text-align: center;
 }
