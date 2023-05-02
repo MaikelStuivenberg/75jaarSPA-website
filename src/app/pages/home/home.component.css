@@ -97,3 +97,9 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+.join_us > .subtext {
+    font-size: 10pt;
+    padding-top: 10px;
+    text-align: center;
+}
