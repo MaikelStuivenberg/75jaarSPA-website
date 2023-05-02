@@ -13,13 +13,15 @@ export class AppComponent implements OnInit, OnDestroy {
   currentBackgroundImage: string = '../assets/fotos/2011BRASS.jpeg';
 
   images: string[] = [
-    '../assets/fotos/2011BRASS.jpeg',
-    '../assets/fotos/2012CHOIR.jpeg',
+    '../assets/fotos/1947BRASS.jpg',
     '../assets/fotos/2012THEATRE.jpeg',
-    '../assets/fotos/2012TIMBRALS.jpeg',
+    '../assets/fotos/2012CHOIR.jpeg',
+    '../assets/fotos/2011BRASS.jpeg',
+    // '../assets/fotos/2012TIMBRALS.jpeg',
     '../assets/fotos/2015SPABAND.jpeg',
-    '../assets/fotos/2015ZANG.jpeg',
+    // '../assets/fotos/2015ZANG.jpeg',
     '../assets/fotos/2018BRASS.jpeg',
+    '../assets/fotos/2022MMS.jpg',
   ];
 
 

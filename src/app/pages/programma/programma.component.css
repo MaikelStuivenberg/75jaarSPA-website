@@ -9,6 +9,17 @@
     text-align: center;
 }
 
+.top_disclaimer {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Vina Sans", sans-serif;
+    font-size: 20pt;
+    padding-top: 0px;
+    text-align: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -34,13 +45,13 @@
 
 .programma_item_time {
     font-family: "Vina Sans", sans-serif;
-    font-size: 14pt;
+    font-size: 16pt;
     display: inline-block;
 }
 
 .programma_item_location {
     font-family: "Vina Sans", sans-serif;
-    font-size: 14pt;
+    font-size: 16pt;
     float: right;
 }
 
